@@ -32,3 +32,15 @@ function myFunction() {
 
 
 
+let toggleButton = document.querySelector('.navbar-toggler');
+toggleButton.addEventListener('click', function() {
+    let navbarMenu = document.querySelector('#navbarSupportedContent');
+    navbarMenu.classList.toggle('show');
+});
+
+
+
+
+
+
+
