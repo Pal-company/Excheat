@@ -38,14 +38,6 @@ toggleButton.addEventListener('click', function() {
     navbarMenu.classList.toggle('show');
 });
 
-    // Get the user's email from local storage
-    let userEmail = localStorage.getItem('email');
-    if(userEmail) {
-      // Remove the '@gmail.com' part
-      userEmail = userEmail.split('@')[0];
-      // Display the user's email in the navbar
-      document.getElementById('userEmail').textContent = userEmail;
-    }
 
 
 
