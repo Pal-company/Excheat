@@ -39,22 +39,6 @@ toggleButton.addEventListener('click', function() {
 });
 
 
-const themeSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
-
-    function switchTheme(e) {
-      if (e.target.checked) {
-        document.documentElement.setAttribute('data-theme', 'dark');
-        document.getElementById('navbar').classList.remove('navbar-dark', 'bg-dark');
-        document.getElementById('navbar').classList.add('navbar-light', 'bg-light');
-      }
-      else {
-        document.documentElement.setAttribute('data-theme', 'light');
-        document.getElementById('navbar').classList.remove('navbar-light', 'bg-light');
-        document.getElementById('navbar').classList.add('navbar-dark', 'bg-dark');
-      }    
-    }
-
-    themeSwitch.addEventListener('change', switchTheme, false);
 
 
 
